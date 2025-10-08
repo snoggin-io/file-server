@@ -1,0 +1,33 @@
+{
+  "name": "file-server",
+  "version": "1.0.0",
+  "bin": {
+    "file-server": "dist/index.js"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "file-upload",
+    "express",
+    "server",
+    "temporary",
+    "cli"
+  ],
+  "author": "Colin Capurso",
+  "license": "ISC",
+  "description": "A simple, lightweight file upload server with a beautiful web interface and REST API",
+  "dependencies": {
+    "@types/multer": "^2.0.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
