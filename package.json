@@ -16,7 +16,7 @@
     "temporary",
     "cli"
   ],
-  "author": "Colin Capurso",
+  "author": "Snoggin IO",
   "license": "ISC",
   "description": "A simple, lightweight file upload server with a beautiful web interface and REST API",
   "dependencies": {
@@ -29,5 +29,9 @@
     "@types/node": "^24.7.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snoggin-io/file-server.git"
   }
 }
