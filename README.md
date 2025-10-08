@@ -15,25 +15,25 @@ A simple, lightweight file upload server with a beautiful web interface and REST
 
 ### Using npx (Recommended)
 ```bash
-npx file-server
+npx @snoggin-io/file-server
 ```
 *No installation required! Starts immediately.*
 
 ### Global Installation
 ```bash
-npm install -g file-server
+npm install -g @snoggin-io/file-server
 file-server
 ```
 
 ### Local Installation
 ```bash
-npm install file-server
-npx file-server
+npm install @snoggin-io/file-server
+npx @snoggin-io/file-server
 ```
 
 ### From Source
 ```bash
-git clone https://github.com/yourusername/file-server.git
+git clone https://github.com/snoggin-io/file-server.git
 cd file-server
 npm install
 npm start
@@ -45,7 +45,7 @@ npm start
 
 1. Start the server:
    ```bash
-   npx file-server
+   npx @snoggin-io/file-server
    ```
 
 2. Open your browser to `http://localhost:3000`
@@ -75,7 +75,7 @@ Response:
 
 Example:
 ```bash
-PORT=8080 npx file-server
+PORT=8080 npx @snoggin-io/file-server
 ```
 
 ## 🔧 API Reference
@@ -152,7 +152,7 @@ Access the web upload interface.
 
 ### Setup
 ```bash
-git clone https://github.com/yourusername/file-server.git
+git clone https://github.com/snoggin-io/file-server.git
 cd file-server
 npm install
 ```
